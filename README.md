@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # beard-pack
 Very simple set up for building static web pages.
 
@@ -30,3 +31,6 @@ CSS without having to worry about vendor prefixes. You can configure browser sup
 7. Lastly make sure you have a spare terminal open in the project directory, so that you can run your normal git commands. 
 
 ~ Happy coding :)
+=======
+# DanJFletcher.github.io
+>>>>>>> ef21a46c802da66c691c54944c460ed6b167a3e4
