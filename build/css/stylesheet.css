@@ -27,16 +27,15 @@
 
 	#header-contact {
 		background: #2f9194;
-		font-family: "Open Sans", sans-serif;
-		font-size: 12pt;
 		color: white;
 		text-align: right;
-		padding-top: 5px;
-		padding-bottom: 5px;
+		padding: 5px 0;
 	}
 
 	#header-menuholder {
 		background: #40c1c6;
+		font-family: "Open Sans", sans-serif;
+		font-size: 12pt;
 		padding-top: 10px;
 		padding-bottom: 10px;
 	}
@@ -53,17 +52,21 @@
 
 	#header-menu {
 		width: calc(100% - 300px);
-		float: left;
+		margin: 0 auto;
 	}
 
+		header h1 {
+			color: white;
+			float: right;
+		}
+
 	.header-menuitem {
-		width: 20%;
 		float: left;
 		font-family: "Oswald", sans-serif;
 		font-size: 14pt;
 		color: white;
 		text-transform: uppercase;
-		padding-top: 15px;
+		padding: 15px;
 		text-align: right;
 		transition: .25s ease all;
 		cursor: pointer;
