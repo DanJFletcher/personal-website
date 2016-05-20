@@ -20,6 +20,18 @@ body {
 	background-size: cover;
 }
 
+main {
+	max-width: 600px;
+	margin: 70px auto;
+	font-family: "Oswald", sans-serif;
+	font-size: 1.2rem;
+	line-height: 1.6;
+}
+
+section {
+	padding: 15px;
+}
+
 	.clear {
 		clear: both;
 	}
