@@ -4,6 +4,15 @@
 
 var gulp = require('gulp');
 var autoprefixer = require('gulp-autoprefixer');
+var deploy = require('gulp-deploy-git');
+
+gulp.task('deploy', function() {
+  return gulp.src(['build/**/*'], {read: false })
+    .pipe(deploy({
+      repository: 'https://github.com/DanJFletcher/DanJFletcher.github.io.git',
+			prefix: 'build'
+    }));
+});
 
 // runs autoprefixer:
 // input is the src css files
