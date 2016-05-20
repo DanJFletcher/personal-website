@@ -15,6 +15,11 @@
     display: block;
 }
 
+body {
+	background-image: url(../images/backgrounds/white-texture.jpg);
+	background-size: cover;
+}
+
 	.clear {
 		clear: both;
 	}
