@@ -23,10 +23,17 @@ body {
 main {
 	max-width: 600px;
 	margin: 70px auto;
-	font-family: "Oswald", sans-serif;
-	font-size: 1.2rem;
+	font-family: "Tangerine", sans-serif;
+	font-size: 3rem;
 	line-height: 1.6;
+	color: #444;
 }
+
+	main p {
+		font-family: "Avro", sans-serif;
+		font-size: 1.2rem;
+		margin-top: 10px;
+	}
 
 section {
 	padding: 15px;
